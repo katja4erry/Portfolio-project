@@ -68,6 +68,9 @@ p {
 .content p {
   font-size: 14px;
 }
+.contact-info {
+  text-align: center;
+}
 .about-foto {
   max-width: 85%;
 }
