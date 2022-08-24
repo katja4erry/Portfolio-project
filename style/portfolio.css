@@ -1,6 +1,7 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #116964;
+  --secondary-color: #e8fbfa;
+  --third-color: #3bd1c4;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -46,7 +47,7 @@ p {
   color: #272142;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .content-container h1 {
   font-size: 58px;
@@ -93,6 +94,16 @@ p {
 }
 .project-description {
   padding: 90px 60px;
+}
+
+.logo-nav {
+  max-width: 200px;
+}
+.nav-item {
+  padding: 0 10px;
+}
+.navbar-nav .nav-link.active {
+  color: var(--branding-color);
 }
 
 @media (max-width: 1280px) {
